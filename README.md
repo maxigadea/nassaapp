@@ -41,5 +41,4 @@ Utilizar la guía de marca de la NASA :check:
 Animaciones :check:
 Configurar linter que controle estandarización del código :check: (disabled for build)
 
-[Lighthouse screenshot]:
-https://ibb.co/n6FzZB2
+![Lighthouse screenshot](https://i.postimg.cc/7ZG1skK6/image.png)
