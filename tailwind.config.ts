@@ -27,6 +27,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms'), (process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})],
 };
 export default config;
