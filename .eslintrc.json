@@ -1,13 +1,14 @@
 {
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "next",
+    // "plugin:@typescript-eslint/recommended",
+    // "next",
     "next/core-web-vitals"
-  ]
-//   "rules": {
+  ],
+  "rules": {
+    "no-alert": "off"
 //     "next/no-img-element": "off",
 //     "indent": ["error", 2],
 //     "quotes": ["error", "single"],
 //     "semi": ["error", "always"]
-//   }
+  }
 }
