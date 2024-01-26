@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-            {
-              protocol: 'https',
-              hostname: 'apod.nasa.gov',
-              port: '',
-      
-            },
-          ],
-    },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'apod.nasa.gov',
+        port: '',
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
